@@ -1,6 +1,7 @@
 # FLUX Modular WF
 
 The Flux Modular WF is a ComfyUI workflow that works like a "Swiss army knife" and is based on FLUX Dev.1 model by Black Forest Labs.
+![Flux Modular WF](https://www.tenofas.ai/wp-content/uploads/2025/07/workflow.png)
 The workflow comes in two different edition:
 
 1) the standard model edition that uses the BFL original model files (you can set the weight_dtype in the “Load Diffusion Model” node to fp8 which will lower the memory usage if you have less than 24Gb Vram and get Out Of Memory errors);
